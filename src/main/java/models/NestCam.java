@@ -5,11 +5,13 @@ public class NestCam {
     private String name;
     private String color;
     private int quantity;
-    private float price;
+    private int price;
+    private int model;
+    private String serialNumber;
 
-//    public NestCam(){
-//        NestCam newNestCam = new NestCam();
-//    }
+    public NestCam(){
+        NestCam newNestCam = new NestCam("Google", "Nest Cam", "Grey", 25, 150);
+    }
 
     public void setName(String name){
         this.name = name;
