@@ -18,8 +18,10 @@ public class NestCamTest {
         String color = "Grey";
         int quantity = 25;
         int price = 150;
+        int model = 100;
+        String serialNumber = "";
         //When
-        NestCam testNestCam = new NestCam(brand, name, color, quantity, price);
+        NestCam testNestCam = new NestCam(brand, name, color, quantity, price, model, serialNumber);
         //Then
         Assertions.assertEquals(brand, testNestCam.getBrand());
         Assertions.assertEquals(name, testNestCam.getName());
