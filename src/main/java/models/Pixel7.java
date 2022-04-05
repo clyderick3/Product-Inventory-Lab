@@ -1,9 +1,9 @@
 package models;
 
 public class Pixel7 {
-    String brand;
-    String name;
-    String color;
-    int quantity;
-    float price;
+    private String brand;
+    private String name;
+    private String color;
+    private int quantity;
+    private float price;
 }
