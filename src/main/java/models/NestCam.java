@@ -7,9 +7,9 @@ public class NestCam {
     private int quantity;
     private float price;
 
-    public NestCam(){
-        NestCam newNestCam = new NestCam();
-    }
+//    public NestCam(){
+//        NestCam newNestCam = new NestCam();
+//    }
 
     public void setName(String name){
         this.name = name;
